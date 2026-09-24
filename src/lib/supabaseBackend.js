@@ -184,7 +184,7 @@ async function getCategories() {
 
 export const api = {
   getSession, onAuthChange, signIn, signUp, signOut,
-  updateMe, uploadAvatar, uploadDoc, listUsers, adminUpdateUser,
+  updateMe, uploadAvatar, uploadDoc, listUsers, adminUpdateUser, createUser,
   getBills, createBill, updateBill, deleteBill,
   getCategories, mock: false,
 }
